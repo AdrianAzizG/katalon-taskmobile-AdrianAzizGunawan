@@ -5,4 +5,26 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ca5d0c1a-9817-4514-acef-90c6a8744d96</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>521a0e62-e956-4f5b-9c15-e2e6c8041514</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Users</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>521a0e62-e956-4f5b-9c15-e2e6c8041514</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>917c8aa2-e7f8-475f-954d-5f524c312315</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>917c8aa2-e7f8-475f-954d-5f524c312315</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
 </TestCaseEntity>

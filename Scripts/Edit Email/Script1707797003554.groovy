@@ -26,14 +26,14 @@ Mobile.tap(findTestObject('Object Repository/Record/Edit Email/android.widget.Te
 
 Mobile.tap(findTestObject('Object Repository/Record/Edit Email/android.widget.LinearLayout'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Record/Edit Email/android.widget.EditText - your.emailgmail.com'), 'mail@mail.com', 
+Mobile.setText(findTestObject('Object Repository/Record/Edit Email/android.widget.EditText - your.emailgmail.com'), email, 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Record/Edit Email/android.widget.Button - OK'), 0)
 
 Mobile.tap(findTestObject('Object Repository/Record/Edit Email/android.widget.ImageButton'), 0)
 
-Mobile.verifyElementText(findTestObject('Spy/Profile/profilePageEmail'), 'mail@mail.com')
+Mobile.verifyElementText(findTestObject('Spy/Profile/profilePageEmail'), email)
 
 WebUI.delay(3)
 
