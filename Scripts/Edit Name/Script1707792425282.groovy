@@ -20,17 +20,17 @@ import org.openqa.selenium.Keys as Keys
 Mobile.startApplication('C:\\Main Storage\\Downloads\\Android-Solodroid_E-CommerceApp Demo_3.2.0.apk\\Solodroid_E-CommerceApp Demo_3.2.0.apk', 
     true)
 
-Mobile.tap(findTestObject('Object Repository/Record/android.widget.FrameLayout'), 0)
+Mobile.tap(findTestObject('Spy/Profile/profileMenu'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Record/android.widget.TextView - EDIT'), 0)
+Mobile.tap(findTestObject('Spy/Profile/editProfileLink'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Record/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Spy/Profile/profileName'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Record/android.widget.EditText - New Username'), 'Emas Golden', 0)
+Mobile.setText(findTestObject('Spy/Profile/profileNameEditText'), name, 0)
 
-Mobile.tap(findTestObject('Object Repository/Record/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Spy/Profile/profileNameOKButton'), 0)
 
-Mobile.verifyElementText(findTestObject('Object Repository/Record/android.widget.TextView - Emas Golden'), 'Emas Golden')
+Mobile.verifyElementText(findTestObject('Spy/Profile/profileNameTextView'), name)
 
 Mobile.closeApplication()
 
