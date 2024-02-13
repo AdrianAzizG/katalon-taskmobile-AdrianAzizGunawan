@@ -32,5 +32,7 @@ Mobile.tap(findTestObject('Spy/Profile/profileNameOKButton'), 0)
 
 Mobile.verifyElementText(findTestObject('Spy/Profile/profileNameTextView'), name)
 
+WebUI.delay(3)
+
 Mobile.closeApplication()
 
